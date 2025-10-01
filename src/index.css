@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Jost";
+  src: url("/Jost-Regular.ttf") format("truetype");
+  
+  /* font-style: normal; */
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+
+@media(max-width:760px){
+  .sidebarBox{
+    background-color:red;
+  }
+}
