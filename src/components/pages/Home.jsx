@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='w-[40%] flex justify-center items-center'>
+        <div className='w-[40%] flex justify-center items-center mr-2'>
           <img src={myimg} alt="" className='profileImg  w-80 rounded-full' />
         </div>
 

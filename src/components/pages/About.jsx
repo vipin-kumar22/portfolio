@@ -21,7 +21,7 @@ export default function About() {
   return (
     <div className="borde-2 borde-red-500 h-full p-4 overflow-y-scroll font-sans">
       {/* Heading */}
-      <h1 className={`text-4xl md:text-3xl font-bold ${theme.text1} p-2 mb-4 font-sans borde-2 borde-gray-400 text-center`}>
+      <h1 className={`text-3xl font-bold ${theme.text1} p-2 mb-4 font-sans borde-2 borde-gray-400 text-center`}>
         About Me
       </h1>
 

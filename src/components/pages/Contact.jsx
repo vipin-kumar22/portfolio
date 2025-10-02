@@ -44,7 +44,7 @@ console.log(
   return (
     <section id="contact" className={`font-sans px-4 overflow-y-scroll w-full h-full ${theme.text1}`}>
       <div className="text-center mb-4" data-aos="fade-up">
-        <h1 className={`text-4xl md:text-3xl font-bold ${theme.text1} p-2 mb-4`}>Get In Touch</h1>
+        <h1 className={`text-3xl font-bold ${theme.text1} p-2 mb-4`}>Get In Touch</h1>
         <p className={`${theme.text1} max-w-2xl mx-auto text-lg`}>
           Feel free to reach out with any questions, feedback, or opportunities. I'd love to hear from you!
         </p>

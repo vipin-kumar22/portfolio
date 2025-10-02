@@ -49,7 +49,7 @@ export default function Skill() {
   return (
     <div className={`${theme.text1} h-[100%] font-sans overflow-y-scroll`}>
       <header className="borde-2 borde-green-400 ">
-        <h1 className="text-4xl md:text-3xl font-bold  p-2 mb-4] text-center">
+        <h1 className="text-3xl font-bold  p-2 mb-4] text-center">
           My Technical Expertise
         </h1>
         <p className="text-lg  max-w-2xl mx-auto text-center">
@@ -58,7 +58,7 @@ export default function Skill() {
         </p>
       </header>
 
-      <div className={`${theme.text1}  mx-10 mt-3 flex flex-col lg:flex-row items-center  rounded-xl shadow-md overflow-hidden mb-12`}>
+      <div className={`${theme.text1}  mx-4 mt-3 flex flex-col lg:flex-row items-center  rounded-xl shadow-md overflow-hidden mb-12`}>
         <div className="w-full lg:w-1/4 p-4 lg:p-5 flex justify-center lg:justify-center ">
           <div className="relative">
             <img
@@ -71,7 +71,7 @@ export default function Skill() {
             </div>
           </div>
         </div>
-        <div className=" w-full lg:w-3/4 p-6 ">
+        <div className="lg:w-3/4 p-6  w-[100%]">
           <h2 className="text-2xl font-semibold mb-3">
             Technical Proficiencies
           </h2>
