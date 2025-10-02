@@ -78,11 +78,11 @@ export default function MainLayout() {
        </div>
       
         <div className=' w-[100%]  cont borde-2 border-red-400 flex flex-col'>
-          <div className='MobileNav borde-2 border-black p-2 mt-2 ml-2 mr-2 mb-4 text-2xl hidden h-[10%] justify-between items-center  shadow-md'>
+          <div className='MobileNav borde-2 border-black p-1 text-2xl hidden h-[8%] justify-between items-center  shadow-md'>
              
               <img src={logo} alt="" className='w-24 h-24'/>
              
-              <FaBars  onClick={(e)=>{
+              <FaBars className='mr-2 text-3xl' onClick={(e)=>{
                 e.stopPropagation();
                 setSidebar(prev=>!prev) }} ref={ref3} 
                 />

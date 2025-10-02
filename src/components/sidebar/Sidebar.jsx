@@ -26,7 +26,7 @@ export default function Sidebar() {
       {/* Logo Section */}
       <div className="h-[20%] flex justify-center items-center p-2  flex justify-center items-center shadow-sm">
         <span className="text-red-500 text-[clamp(1.4rem,3vw,3.5rem)] font-bold borde-2 borde-red-400 w-[100%] h-[100%] flex justify-center items-center">
-          <img src={logo} alt="" className="w-[65%] "/>
+          <img src={logo} alt="" className="w-[60%] "/>
         </span>
 
  
