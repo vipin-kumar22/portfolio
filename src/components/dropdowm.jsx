@@ -16,24 +16,28 @@ export default function Dropdowm({ istrue }) {
     let tl = gsap.timeline();
 
     if (istrue === true) {
-      tl.from(".Home", { opacity: 0, duration: 0.15, delay: 0.15 })
-        .to(".Home", { opacity: 1, duration: 0.15, delay: 0.15 })
-        .from(".About", { opacity: 0, duration: 0.15})
-        .to(".About", { opacity: 1, duration: 0.15 })
-        .from(".Skill", { opacity: 0, duration: 0.15 })
-        .to(".Skill", { opacity: 1, duration: 0.15 })
-        .from(".Project", { opacity: 0, duration: 0.15 })
-        .to(".Project", { opacity: 1, duration: 0.15 })
-        .from(".Contact", { opacity: 0, duration: 0.15 })
-        .to(".Contact", { opacity: 1, duration: 0.15 });
+      tl.from(".darkMode", { opacity: 0, duration: 0.15 ,delay:0.18})
+        .to(".darkMode", {  opacity:1, duration: 0.11 })
+        .from(".Home", { opacity: 0, duration: 0.11 })
+        .to(".Home", { opacity: 1, duration: 0.11})
+        .from(".About", { opacity: 0, duration: 0.11})
+        .to(".About", { opacity: 1, duration: 0.11})
+        .from(".Skill", { opacity: 0, duration: 0.11})
+        .to(".Skill", { opacity: 1, duration: 0.11})
+        .from(".Project", { opacity: 0, duration: 0.11})
+        .to(".Project", { opacity: 1, duration: 0.11})
+        .from(".Contact", { opacity: 0, duration: 0.11})
+        .to(".Contact", { opacity: 1, duration: 0.11})
+         .from(".socialLinks", { opacity: 0, duration: 0.12 })
+        .to(".socialLinks", { opacity: 1, duration: 0.12 });
     }
   }, [istrue]);
 
   return (
-    <div className=" h-[95%] flex justify-between text-black flex-col gap-4">
-      <div className=" mt-4 px-6 py-3 font-bold text-4xl  flex justify-between items-center ">
+    <div className=" h-[92%] flex justify-between text-black flex-col gap-4">
+      <div className="mt-4 px-6 py-3 font-bold text-4xl  flex justify-between items-center ">
         <FaMoon
-          className={`${theme.bgColor ? "text-black" : "text-blue-400"}`}
+          className={`darkMode  ${theme.bgColor ? "text-black" : "text-blue-400"}`}
           onClick={toggleMode}
         />
         <RxCross1 />
@@ -62,7 +66,7 @@ export default function Dropdowm({ istrue }) {
       </div>
 
       <div className="flex justify-center p-4">
-        <div className="bg-blu-400 p-3 rounded flex justify-evenly items-center text-2xl  w-[45%] border">
+        <div className="socialLinks p-3 rounded flex justify-evenly items-center text-2xl  w-[45%] border">
           <a href="https://linkedin.com/in/vipinkumar95" target="_blank">
             {" "}
             <FaLinkedin />
