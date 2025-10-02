@@ -86,7 +86,7 @@ export default function MainLayout() {
                 e.stopPropagation();
                 setSidebar(prev=>!prev) }} ref={ref3} 
                 />
-               <div className='dropdown absolute z-30  top-0 w-full mt-1 left-0 right-0 h-[95%] overflow-hidden borde-4 border-pink-400 shadow-md bg-white'>
+               <div className='dropdown absolute z-30  top-0 w-full mt-1 left-0 right-0 h-[95%]  borde-4 border-pink-400 shadow-md bg-white'>
                 <Dropdowm istrue={openSidebar}/>
                 </div>
           </div>
