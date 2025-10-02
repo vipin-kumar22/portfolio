@@ -16,21 +16,21 @@ export default function Dropdowm({ istrue }) {
     let tl = gsap.timeline();
 
     if (istrue === true) {
-      tl.from(".Home", { opacity: 0, duration: 0.2, delay: 0.2 })
-        .to(".Home", { opacity: 1, duration: 0.2, delay: 0.2 })
-        .from(".About", { opacity: 0, duration: 0.2 })
-        .to(".About", { opacity: 1, duration: 0.2 })
-        .from(".Skill", { opacity: 0, duration: 0.2 })
-        .to(".Skill", { opacity: 1, duration: 0.2 })
-        .from(".Project", { opacity: 0, duration: 0.2 })
-        .to(".Project", { opacity: 1, duration: 0.2 })
-        .from(".Contact", { opacity: 0, duration: 0.2 })
-        .to(".Contact", { opacity: 1, duration: 0.2 });
+      tl.from(".Home", { opacity: 0, duration: 0.15, delay: 0.15 })
+        .to(".Home", { opacity: 1, duration: 0.15, delay: 0.15 })
+        .from(".About", { opacity: 0, duration: 0.15})
+        .to(".About", { opacity: 1, duration: 0.15 })
+        .from(".Skill", { opacity: 0, duration: 0.15 })
+        .to(".Skill", { opacity: 1, duration: 0.15 })
+        .from(".Project", { opacity: 0, duration: 0.15 })
+        .to(".Project", { opacity: 1, duration: 0.15 })
+        .from(".Contact", { opacity: 0, duration: 0.15 })
+        .to(".Contact", { opacity: 1, duration: 0.15 });
     }
   }, [istrue]);
 
   return (
-    <div className="  bg-blu-600 relative h-[95%] flex justify-between text-black flex-col gap-4">
+    <div className=" h-[95%] flex justify-between text-black flex-col gap-4">
       <div className=" mt-4 px-6 py-3 font-bold text-4xl  flex justify-between items-center ">
         <FaMoon
           className={`${theme.bgColor ? "text-black" : "text-blue-400"}`}

@@ -68,7 +68,7 @@ export default function MainLayout() {
 
 
   return (
-    <div className={`h-[100vh] flex justify-center flex-row relative  ${theme.bgColor} ${theme.text1}`} ref={ref0}  >
+    <div className={`h-[100vh] flex justify-center flex-row relative ${theme.bgColor} ${theme.text1}`} ref={ref0}  >
 
        <div className="cursor-dot" ref={ref1}></div>
        <div className="cursor-trail" ref={ref2}></div>
@@ -77,21 +77,21 @@ export default function MainLayout() {
         <Sidebar/>
        </div>
       
-        <div className=' w-[100%]  cont flex flex-col'>
-          <div className='MobileNav p-1 text-2xl hidden h-[8%] justify-between items-center  shadow-md'>
+        <div className=' w-[100%]  cont  flex flex-col'>
+          <div className='MobileNav borde-2 border-black p-2 mt-2 ml-2 mr-2 mb-4 text-2xl hidden h-[10%] justify-between items-center  shadow-md'>
              
               <img src={logo} alt="" className='w-24 h-24'/>
              
-              <FaBars className='mr-2 text-3xl' onClick={(e)=>{
+              <FaBars  className='text-3xl mr-2' onClick={(e)=>{
                 e.stopPropagation();
                 setSidebar(prev=>!prev) }} ref={ref3} 
                 />
-               <div className='dropdown border-4 border-red-400  absolute z-30  top-0 w-full mt-1 left-0 right-0 h-[95%]  borde-4 border-pink-400 shadow-md bg-white'>
+               <div className='dropdown  absolute z-30  top-0 w-full mt-1 left-0 right-0 h-[100%] overflow-hidden borde-4 border-pink-400 shadow-md bg-white'>
                 <Dropdowm istrue={openSidebar}/>
                 </div>
           </div>
 
-          <div className={`sm:h-[90%]  md:h-[100%] h-[90%] w-[100%] flex flex-col`}>
+          <div className={` sm:h-[90%]  md:h-[100%] h-[90%] w-[100%] flex flex-col`}>
             
             <Outlet/>
           </div>
