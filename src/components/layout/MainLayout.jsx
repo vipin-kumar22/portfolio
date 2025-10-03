@@ -7,7 +7,7 @@ import { FaBars } from "react-icons/fa";
 import { cursor } from './mainLayout.js';
 import Dropdowm from '../dropdowm.jsx';
 import { ThemeContext } from '../Theme.jsx';
-import logo from '../../assets/Mylogo.png'
+import logo from '../../assets/logo.png'
 export default function MainLayout() {
   const [openSidebar,setSidebar]= useState(false);
   const [cursorP ,setcursorP]  = useState({});
@@ -78,11 +78,11 @@ export default function MainLayout() {
        </div>
       
         <div className=' w-[100%]  cont  flex flex-col'>
-          <div className='MobileNav  text-2xl hidden  h-[8%] p-2 mx-1  mt-1 mb-1 justify-between items-center border-b border-gray-600  shadow-md'>
+          <div className='MobileNav  text-2xl hidden  h-[6%] p-2 mx-1  mt-1 mb-1 justify-between items-center border-b border-gray-600  shadow-md'>
              
               <img src={logo} alt="" className='w-24 h-24'/>
              
-              <FaBars  className='text-3xl mr-4' onClick={(e)=>{
+              <FaBars  className='text-2xl mr-4' onClick={(e)=>{
                 e.stopPropagation();
                 setSidebar(prev=>!prev) }} ref={ref3} 
                 />

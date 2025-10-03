@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { SiHackerrank } from "react-icons/si";
 import { FaMoon } from "react-icons/fa";
-import logo from "../../assets/Mylogo.png";
+import logo from "../../assets/logo.png";
 
 import { ThemeContext } from "../Theme";
 
