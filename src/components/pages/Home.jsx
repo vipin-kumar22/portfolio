@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import myimg from '../../assets/my.jpg';
-// import leaf from '../../assets/blue-leaf.png';
+import Resume from '../../assets/resume/vipin.pdf'
 import { Link } from 'react-router-dom';
 
 import { TextPlugin } from "gsap/TextPlugin";
@@ -66,9 +66,14 @@ export default function Home() {
         <button className='xyx rounded-md text-white px-4 py-2 bg-blue-500 text-sm md:text-xl sm:text-2xl shadow-sm mr-4'>
          <Link to="/contact">Contact</Link>
         </button>
-        <button className='xyx1 border rounded-md px-4 py-2 text-sm md:text-xl sm:text-2xl shadow-sm'>
+
+        <a href={Resume} download="Vipin_Kumar_Resume.pdf">
+          <button className='xyx1 border rounded-md px-4 py-2 text-sm md:text-xl sm:text-2xl shadow-sm active:bg-yellow-500'>
           Download Resume
         </button>
+        </a>
+
+       
       </div>
 
     </div>

@@ -292,7 +292,7 @@ export default function Skill() {
               <div className="bg-blue-100 p-2 rounded-lg mr-3">
                 <IoIosTrendingUp className="text-blue-600 w-5 h-5" />
               </div>
-              <div>
+              <div className="mb-4">
                 <h3 className="font-medium  mb-1">
                   Continuous Improvement
                 </h3>

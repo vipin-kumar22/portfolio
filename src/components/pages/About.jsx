@@ -119,7 +119,7 @@ export default function About() {
       </div>
 
    {/* Extra Section - Vision / Quote */}
-<div className={`mt-8 p-8  rounded-xl shadow-lg text-center ${theme.bgColor2}` }>
+<div className={`mt-8 mb-6 p-8  rounded-xl shadow-lg text-center ${theme.bgColor2}` }>
   <h2 className="text-2xl font-semibold mb-4 flex justify-center items-center gap-2 pb-2">
     My Vision <GiBullseye className="text-blue-600 w-8 h-8" />
   </h2>

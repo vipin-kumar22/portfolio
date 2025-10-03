@@ -158,7 +158,7 @@ console.log(
             </div>
           </div>
 
-          <div className={`${theme.bgColor2} rounded-xl shadow-md p-6 `}>
+          <div className={`${theme.bgColor2} rounded-xl shadow-md p-6 mb-6`}>
             <h3 className={`font-medium ${theme.text1} `}>Connect With Me</h3>
             <div className={`flex space-x-4 m-8 ${theme.bgColor2}`}>
               <Card />

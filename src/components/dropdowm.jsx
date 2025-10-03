@@ -37,7 +37,7 @@ export default function Dropdowm({ istrue }) {
     <div className=" h-[90%] flex justify-between text-black flex-col gap-4">
       <div className="mt-4 px-6 py-3 font-bold text-4xl  flex justify-between items-center ">
         <FaMoon
-          className={`darkMode  ${theme.bgColor ? "text-black" : "text-blue-400"}`}
+          className={`darkMode text-lg  ${theme.bgColor ? "text-black" : "text-blue-400"}`}
           onClick={toggleMode}
         />
         <RxCross1 />

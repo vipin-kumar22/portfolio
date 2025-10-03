@@ -10,7 +10,7 @@ const { theme, toggleMode } = useContext(ThemeContext);
 
   return (
     <div
-      className={`border border-blue-400 ${theme.bgColor2} font-sans rounded-lg flex flex-col p-3 hover:shadow-lg transition-transform duration-300 transform hover:scale-110`}
+      className={`border border-blue-400 ${theme.bgColor2} mb-4 font-sans rounded-lg flex flex-col p-3 hover:shadow-lg transition-transform duration-300 transform hover:scale-110`}
       style={{ cursor: "pointer" }}
     >
       <div className="mb-2 h-[60%]">

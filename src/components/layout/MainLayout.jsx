@@ -78,7 +78,7 @@ export default function MainLayout() {
        </div>
       
         <div className=' w-[100%]  cont  flex flex-col'>
-          <div className='MobileNav  text-2xl hidden  h-[6%] p-2 mx-1  mt-1 mb-1 justify-between items-center border-b border-gray-600  shadow-md'>
+          <div className='MobileNav  text-2xl hidden  h-[6%] p-2 mx-1  mt-1 mb-1 justify-between items-center   shadow-md'>
              
               <img src={logo} alt="" className='w-24 h-24'/>
              
@@ -86,7 +86,7 @@ export default function MainLayout() {
                 e.stopPropagation();
                 setSidebar(prev=>!prev) }} ref={ref3} 
                 />
-               <div className='dropdown  absolute z-30  top-0 w-full mt-1 left-0 right-0 h-[100%] overflow-hidden borde-4 border-pink-400 shadow-md bg-white'>
+               <div className='dropdown  absolute z-30  top-0 w-full mt-1 left-0 right-0 h-[100%] overflow-hidden shadow-md bg-white'>
                 <Dropdowm istrue={openSidebar}/>
                 </div>
           </div>
